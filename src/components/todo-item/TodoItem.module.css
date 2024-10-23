@@ -1,0 +1,17 @@
+
+.item{
+    cursor: pointer;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 40px 10px;
+    font-size: 1.7rem;
+    padding: 5px;
+    word-wrap: break-word;
+    user-select: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: .6;
+}
