@@ -1,4 +1,22 @@
 .wrap{
   background-color: grey;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.status_list{
+  display: flex;
+  gap: 50px;
+  margin: 15px 10px;
+}
+.status_item{
+  height: 30px;
+  font-size: 1.2rem;
+  border: 2px dashed rgb(255, 216, 216);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status_item:hover{
+  background-color: rgba(166, 71, 255, 0.489);
 }
